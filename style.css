@@ -1,0 +1,74 @@
+@charset 'UTF-8';
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+td {
+	width: 150px;
+}
+
+pre {
+    white-space: pre-wrap;     
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;    
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;     
+}
+
+.textForm {
+	width: 600px;
+	height: 4em;
+	word-wrap: normal;
+}
+
+.subInput {
+	width: 20px;
+	text-align: center;
+}
+
+.subLockButton {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #999999;
+	text-align: center;
+	width: 30px;
+	height: 20px;
+	display: inline;
+	cursor: pointer;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+#translateButton {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #999999;
+	text-align: center;
+	width: 30px;
+	height: 20px;
+	display: inline;
+	cursor: pointer;
+}
+
+#plainText {
+	border: 1px solid black;
+}
+
+#leftDiv {
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+}
+
+#rightDiv {
+	display: inline-block;
+	position: absolute;
+	left: 475px;
+}
